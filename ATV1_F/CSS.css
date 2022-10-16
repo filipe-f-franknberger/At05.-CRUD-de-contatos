@@ -1,0 +1,147 @@
+
+
+.position{
+    position: relative;
+    text-align: left;
+    }
+
+@media screen and (max-width: 768px){
+    section ,  aside{
+        width: 100%;
+        padding: 0%;
+        background-color: aqua;
+        margin: auto;     
+    }
+}
+@media screen and (max-width: 600px){
+    div li{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    margin: auto;
+    }
+
+}
+@media screen and (max-width:300px){
+    table{
+        background-color: darkslategray;
+    }
+    img{
+        width: 100%;
+    }
+}
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #9db0bd;
+    justify-content: baseline;
+    border: 1;
+    border-color: black
+}
+
+.container {
+    background-color: #a1f8d7;
+    border-radius: 5px;
+    border: 2px solid #3E445B;
+    width: 450px;
+    max-width: 100%;
+}
+
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    font-weight: 600;
+    color: #9a42ff;
+    font-size: 30px;
+}
+
+.form {
+    padding: 0 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #041241;
+}
+
+.form-control input {
+
+    border-radius: 5px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+.form-control sucess{
+    visibility: visible;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(131, 16, 238);
+
+}
+.sucess small{
+    visibility: visible;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(29, 175, 53);
+
+}
+
+.form button {
+    background-color: #9a42ff;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #3e00b1;
+    transition: 0.3s;
+}
